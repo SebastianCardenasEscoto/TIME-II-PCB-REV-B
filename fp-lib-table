@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "ltc3622HDE")(type "KiCad")(uri "/home/seb/KiCad/libs/ul_LTC3622HDE-23-5-PBF/KiCAD/2022-06-28_00-50-18/footprints.pretty")(options "")(descr ""))
+  (lib (name "LTC4420CMSE")(type "KiCad")(uri "/home/seb/KiCad/libs/ul_LTC4420CMSE-PBF/KiCAD/2022-07-09_10-17-51/footprints.pretty")(options "")(descr ""))
+)
