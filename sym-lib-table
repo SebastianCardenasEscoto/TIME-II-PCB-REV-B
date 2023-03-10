@@ -1,4 +1,7 @@
 (sym_lib_table
+  (version 7)
   (lib (name "LTC3622HDE")(type "Legacy")(uri "/home/seb/KiCad/libs/ul_LTC3622HDE-23-5-PBF/KiCAD/2022-06-28_00-50-18/2022-06-28_00-50-18.lib")(options "")(descr ""))
   (lib (name "LTC4420")(type "Legacy")(uri "/home/seb/KiCad/libs/ul_LTC4420CMSE-PBF/KiCAD/2022-07-09_10-17-51/2022-07-09_10-17-51.lib")(options "")(descr ""))
+  (lib (name "DS2715")(type "KiCad")(uri "${KIPRJMOD}/DS2715.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17608")(type "KiCad")(uri "${KIPRJMOD}/MAX17608.kicad_sym")(options "")(descr ""))
 )
