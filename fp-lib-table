@@ -1,4 +1,11 @@
 (fp_lib_table
-  (lib (name "ltc3622HDE")(type "KiCad")(uri "/home/seb/KiCad/libs/ul_LTC3622HDE-23-5-PBF/KiCAD/2022-06-28_00-50-18/footprints.pretty")(options "")(descr ""))
-  (lib (name "LTC4420CMSE")(type "KiCad")(uri "/home/seb/KiCad/libs/ul_LTC4420CMSE-PBF/KiCAD/2022-07-09_10-17-51/footprints.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/ul_USB4105-GF-A/footprints.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/esp/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "battery")(type "KiCad")(uri "${KIPRJMOD}/battery.pretty")(options "")(descr ""))
+  (lib (name "button")(type "KiCad")(uri "${KIPRJMOD}/button/button.pretty")(options "")(descr ""))
+  (lib (name "sdcard")(type "KiCad")(uri "${KIPRJMOD}/sdcard/sdcard.pretty")(options "")(descr ""))
+  (lib (name "inductor")(type "KiCad")(uri "${KIPRJMOD}/inductor.pretty")(options "")(descr ""))
+  (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/usb/usb.pretty")(options "")(descr ""))
+  (lib (name "Connectors_JST")(type "KiCad")(uri "${KIPRJMOD}/jsts/Connectors_JST.pretty")(options "")(descr ""))
 )
