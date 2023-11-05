@@ -9,4 +9,6 @@
   (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/usb/usb.pretty")(options "")(descr ""))
   (lib (name "Connectors_JST")(type "KiCad")(uri "${KIPRJMOD}/jsts/Connectors_JST.pretty")(options "")(descr ""))
   (lib (name "spdt")(type "KiCad")(uri "${KIPRJMOD}/spdt/footprints.pretty")(options "")(descr ""))
+  (lib (name "ffc_conn")(type "KiCad")(uri "${KIPRJMOD}/ffc_conn/ffc_conn.pretty")(options "")(descr ""))
+  (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/crystal.pretty")(options "")(descr ""))
 )

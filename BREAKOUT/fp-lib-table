@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ffc_conn")(type "KiCad")(uri "/home/seb/kicad/time2/ffc_conn/ffc_conn.pretty")(options "")(descr ""))
+)
