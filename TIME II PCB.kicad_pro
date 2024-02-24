@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.6,
-          "width": 2.6
+          "drill": 0.9398,
+          "height": 1.4478,
+          "width": 1.4478
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,6 +56,10 @@
         }
       ],
       "drc_exclusions": [
+        "hole_clearance|197957901|88074500|9c8e3c5c-e83f-4d55-9ca4-4f5ec1e07660|dfee6f75-9dd1-46a3-8a91-9fbd1a000559",
+        "hole_clearance|198173700|88074500|3671af81-3983-46f1-b383-5704b375c2e1|dfee6f75-9dd1-46a3-8a91-9fbd1a000559",
+        "hole_clearance|203557902|88074500|955c1e1e-6afe-49a3-ad66-e81f6ccc810c|aef232ce-0849-4312-86e8-65ed069545ec",
+        "hole_clearance|203773701|88074500|c6b88fef-bd69-4596-8e5f-393c1b13c9a4|aef232ce-0849-4312-86e8-65ed069545ec",
         "malformed_courtyard|195796500|95103600|47d23378-3eba-42bb-93c1-35f8e15a3cb2|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|205935102|86677500|47d23378-3eba-42bb-93c1-35f8e15a3cb2|00000000-0000-0000-0000-000000000000"
       ],
@@ -442,7 +446,7 @@
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 1.25,
         "via_diameter": 0.7112,
         "via_drill": 0.3048,
         "wire_width": 6
