@@ -6,4 +6,5 @@
   (lib (name "MAX17608")(type "KiCad")(uri "${KIPRJMOD}/MAX17608.kicad_sym")(options "")(descr ""))
   (lib (name "DRV883")(type "KiCad")(uri "${KIPRJMOD}/DRV883.kicad_sym")(options "")(descr ""))
   (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/crystal.kicad_sym")(options "")(descr ""))
+  (lib (name "sdcardd")(type "KiCad")(uri "/Users/ashvinverma/Downloads/GTFP08431BEU (1)/GTFP08431BEU.kicad_sym")(options "")(descr ""))
 )

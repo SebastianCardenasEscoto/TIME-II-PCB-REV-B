@@ -11,4 +11,5 @@
   (lib (name "spdt")(type "KiCad")(uri "${KIPRJMOD}/spdt/footprints.pretty")(options "")(descr ""))
   (lib (name "ffc_conn")(type "KiCad")(uri "${KIPRJMOD}/ffc_conn/ffc_conn.pretty")(options "")(descr ""))
   (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/crystal.pretty")(options "")(descr ""))
+  (lib (name "sdcardd")(type "KiCad")(uri "/Users/ashvinverma/Documents/Clubs/STAR/irec 2023 airbrakes/Schematic/STAR_rocket_projecct/LIB_TB6600HG/TB6600HG/KiCad")(options "")(descr ""))
 )
