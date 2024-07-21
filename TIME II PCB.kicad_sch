@@ -4873,6 +4873,142 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -5763,6 +5899,12 @@
 		)
 	)
 	(junction
+		(at 105.41 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "050f07d2-2022-4540-89d6-5f2775c79ac0")
+	)
+	(junction
 		(at 168.91 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5937,6 +6079,12 @@
 		(uuid "adc21a10-414f-4af4-8c14-f1046297639e")
 	)
 	(junction
+		(at 85.09 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b29f60b7-c2b1-409e-adbc-2a03be59f84a")
+	)
+	(junction
 		(at 256.54 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5997,6 +6145,12 @@
 		(uuid "f07a8b68-f3d2-4902-a46f-babf6bb64536")
 	)
 	(junction
+		(at 118.11 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f49cef37-a39b-4822-bb2c-f2307afbac41")
+	)
+	(junction
 		(at 340.36 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6005,6 +6159,20 @@
 	(no_connect
 		(at 144.78 102.87)
 		(uuid "8457a65f-907b-497b-9448-79323b1541f1")
+	)
+	(no_connect
+		(at 92.71 240.03)
+		(uuid "9d866a17-cfc6-4b01-ae10-cdb0d418a994")
+	)
+	(wire
+		(pts
+			(xy 118.11 248.92) (xy 118.11 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0010cf8b-6682-4a35-b3d6-ffe06ed322b8")
 	)
 	(wire
 		(pts
@@ -6478,6 +6646,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 256.54) (xy 105.41 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd5b89b-1335-4fff-892c-c5c3abc7dbb1")
+	)
+	(wire
+		(pts
 			(xy 175.26 156.21) (xy 180.34 156.21)
 		)
 		(stroke
@@ -6618,6 +6796,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 257.81) (xy 105.41 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abfe9db-1548-40e0-8cb9-ad1b1b0a514c")
+	)
+	(wire
+		(pts
 			(xy 69.85 156.21) (xy 72.39 156.21)
 		)
 		(stroke
@@ -6698,6 +6886,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 248.92) (xy 97.79 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424838e8-359c-46b6-8d0e-5a6cf1af3a54")
+	)
+	(wire
+		(pts
 			(xy 391.16 121.92) (xy 398.78 121.92)
 		)
 		(stroke
@@ -6775,6 +6973,16 @@
 			(type default)
 		)
 		(uuid "48262daa-a2ee-4cca-90e0-a4853dca93f5")
+	)
+	(wire
+		(pts
+			(xy 82.55 243.84) (xy 82.55 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c6579e-93e6-45ab-801a-afdfc964f0bd")
 	)
 	(wire
 		(pts
@@ -7328,6 +7536,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 245.11) (xy 118.11 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f6ea88-9fe3-4b81-bb68-4716b072e8a4")
+	)
+	(wire
+		(pts
 			(xy 388.62 41.91) (xy 388.62 38.1)
 		)
 		(stroke
@@ -7668,6 +7886,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 257.81) (xy 118.11 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2840b4-6a4e-40f3-8b5d-6b0f07bb3059")
+	)
+	(wire
+		(pts
 			(xy 388.62 76.2) (xy 396.24 76.2)
 		)
 		(stroke
@@ -7715,6 +7943,16 @@
 			(type default)
 		)
 		(uuid "aef3df37-708e-4e1d-a71d-e07bc871fc77")
+	)
+	(wire
+		(pts
+			(xy 113.03 248.92) (xy 118.11 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbb45be-c216-4447-b4e2-8e608d9db400")
 	)
 	(wire
 		(pts
@@ -7938,6 +8176,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 257.81) (xy 105.41 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06631cc-145d-4672-89cf-b65818315391")
+	)
+	(wire
+		(pts
 			(xy 189.23 27.94) (xy 204.47 27.94)
 		)
 		(stroke
@@ -8098,6 +8346,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 248.92) (xy 85.09 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c31b43-e1f0-4757-80fe-af595d4cdb02")
+	)
+	(wire
+		(pts
 			(xy 262.89 82.55) (xy 261.62 82.55)
 		)
 		(stroke
@@ -8215,6 +8473,16 @@
 			(type default)
 		)
 		(uuid "f34030cd-3f92-4881-bfdf-6d234ea313d0")
+	)
+	(wire
+		(pts
+			(xy 82.55 248.92) (xy 85.09 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34b6ae7-6448-4439-adf7-1c291e8c73fb")
 	)
 	(wire
 		(pts
@@ -9511,6 +9779,28 @@
 			)
 		)
 	)
+	(global_label "3v3"
+		(shape input)
+		(at 118.11 245.11 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "976c1e14-30f1-4018-be4e-9fe6b134abe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 238.7382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MISO"
 		(shape input)
 		(at 116.84 110.49 180)
@@ -10008,6 +10298,28 @@
 		(uuid "f0034ca0-6cf1-4960-a76d-53c7458e703c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0806 114.7898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v"
+		(shape input)
+		(at 82.55 243.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f33749c4-7893-4aa9-a597-82ec5341ab56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4706 239.2498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,6 +11880,73 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
+		(at 105.41 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b078f69-50a2-43a6-81b1-dc08e02aac82")
+		(property "Reference" "#PWR06"
+			(at 105.41 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee1a5dd5-4fb7-4856-b413-f6e8910cb3da")
+		)
+		(instances
+			(project "TIME II PCB"
+				(path "/ada74dd6-9313-41da-aa43-aea44c6d55c8"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
 		(at 151.13 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12987,6 +13366,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 118.11 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69710cbd-1ab6-4287-a6fa-31f41bf08e7e")
+		(property "Reference" "C21"
+			(at 121.92 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 121.92 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 119.0752 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e037d8d1-925c-40f3-88fe-8c389211aec6")
+		)
+		(pin "1"
+			(uuid "d6f68422-eed4-4ebf-8cba-3e0ed93eab49")
+		)
+		(instances
+			(project "TIME II PCB"
+				(path "/ada74dd6-9313-41da-aa43-aea44c6d55c8"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 406.4 139.7 0)
 		(unit 1)
@@ -13804,6 +14253,76 @@
 			(project "TIME II PCB"
 				(path "/ada74dd6-9313-41da-aa43-aea44c6d55c8"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a476a12-fa6f-4171-a69c-127a2611357e")
+		(property "Reference" "C7"
+			(at 88.9 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 88.9 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.0552 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05b04f31-6673-472f-b628-b5870f065df9")
+		)
+		(pin "1"
+			(uuid "40722a84-e550-473b-85db-df9cc576ce97")
+		)
+		(instances
+			(project ""
+				(path "/ada74dd6-9313-41da-aa43-aea44c6d55c8"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16108,6 +16627,77 @@
 			(project "TIME II PCB"
 				(path "/ada74dd6-9313-41da-aa43-aea44c6d55c8"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 105.41 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebc10dca-b172-4feb-82ae-5f6665eee2f1")
+		(property "Reference" "U5"
+			(at 105.41 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 105.41 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 105.41 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 107.95 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 105.41 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b0997ef1-059f-4a20-8800-df2a0aeeb9b7")
+		)
+		(pin "2"
+			(uuid "7708745f-d852-4442-8715-444c48070abf")
+		)
+		(pin "1"
+			(uuid "d8bedf58-a2b5-474a-bc81-586b108e6634")
+		)
+		(instances
+			(project ""
+				(path "/ada74dd6-9313-41da-aa43-aea44c6d55c8"
+					(reference "U5")
 					(unit 1)
 				)
 			)
