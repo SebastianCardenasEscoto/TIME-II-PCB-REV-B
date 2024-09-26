@@ -1,5 +1,5 @@
 # TIME-II-PCB-REV-B
-Second Revision of PCB for TIME II project of Space Technologies at Cal. The third and newest (as of 2024) revision is on branch radical. The first and newest revision can be found [here](https://oshwlab.com/jbildy_1656/stac-time2).
+Second Revision of PCB for TIME II project of Space Technologies at Cal. The third and newest (as of 2024) revision is on branch radical. The first and oldest revision can be found [here](https://oshwlab.com/jbildy_1656/stac-time2).
 
 ## Features
 - :computer: ESP32 Microcontroller
