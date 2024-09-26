@@ -13,7 +13,7 @@ Third Revision of PCB for TIME II project of Space Technologies at Cal
 1. We received notice that we can use batteries outside of Blue Origin's approved battery list. 
 Thus we decided to use lithium batteries which allowed the following simplifications:
 
-- &nbsp;&nbsp;&nbsp;&nbsp; No longer support charging on flight
+- No longer support charging on flight
 - Replaced buck converter with LDO as voltage drop is now 3.7V -> 3.3V instead of 5V -> 3.3V
 
 2. The following simplifications were allowed due to mechanical design:
