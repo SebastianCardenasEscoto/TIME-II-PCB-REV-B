@@ -20,7 +20,7 @@ Second Revision of PCB for TIME II project of Space Technologies at Cal. The thi
 - To accommodate changes in mechanical design, this board supports both 3 pin servo and Brushed DC Motors.
 - 3 pin servo's have largely been used for TIME II mechanical design, but the strict 500 gram weight limit might require plain DC motors.
 
-3. The Arduino Microcontroller was replaced with an ESP32 to simplify the PCB design and bringup process. x
+3. The Arduino Microcontroller was replaced with an ESP32 to simplify the PCB design and bringup process.
 
 ## Pictures
 
