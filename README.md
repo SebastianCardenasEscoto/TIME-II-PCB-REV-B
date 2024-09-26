@@ -1,5 +1,5 @@
 # TIME-II-PCB-REV-B
-Third Revision of PCB for TIME II project of Space Technologies at Cal
+Third Revision of PCB for TIME II project of Space Technologies at Cal. The second revision is on the main branch. The first revision can be found [here](https://oshwlab.com/jbildy_1656/stac-time2).
 
 ## Features
 - :computer: STM32 Microcontroller
