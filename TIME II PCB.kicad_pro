@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|197957901|88074500|9c8e3c5c-e83f-4d55-9ca4-4f5ec1e07660|dfee6f75-9dd1-46a3-8a91-9fbd1a000559",
+        "hole_clearance|198173700|88074500|3671af81-3983-46f1-b383-5704b375c2e1|dfee6f75-9dd1-46a3-8a91-9fbd1a000559",
+        "hole_clearance|203557902|88074500|955c1e1e-6afe-49a3-ad66-e81f6ccc810c|aef232ce-0849-4312-86e8-65ed069545ec",
+        "hole_clearance|203773701|88074500|c6b88fef-bd69-4596-8e5f-393c1b13c9a4|aef232ce-0849-4312-86e8-65ed069545ec",
+        "malformed_courtyard|195796500|95103600|47d23378-3eba-42bb-93c1-35f8e15a3cb2|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|205935102|86677500|47d23378-3eba-42bb-93c1-35f8e15a3cb2|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -87,7 +94,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "ignore",
+        "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -116,9 +123,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.1524,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.254,
         "min_hole_clearance": 0.33,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
@@ -128,9 +135,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.25,
+        "min_track_width": 0.1524,
+        "min_via_annular_width": 0.1524,
+        "min_via_diameter": 0.6096,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -624,7 +631,7 @@
   "sheets": [
     [
       "ada74dd6-9313-41da-aa43-aea44c6d55c8",
-      "Root"
+      ""
     ]
   ],
   "text_variables": {}
