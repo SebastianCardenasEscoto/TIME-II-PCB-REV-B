@@ -31,7 +31,7 @@ Thus we decided to use lithium batteries which allowed the following simplificat
 ### Layout
 ![layout](layout_revC.png)
 
-![3D View](3D.png)
+![3D View](3D_view.png)
 
 ## To-Do
 - SD card footprint - Week of 3/10/24 [DONE]
