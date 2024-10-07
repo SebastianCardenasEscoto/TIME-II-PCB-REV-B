@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|197957901|88074500|9c8e3c5c-e83f-4d55-9ca4-4f5ec1e07660|dfee6f75-9dd1-46a3-8a91-9fbd1a000559",
-        "hole_clearance|198173700|88074500|3671af81-3983-46f1-b383-5704b375c2e1|dfee6f75-9dd1-46a3-8a91-9fbd1a000559",
-        "hole_clearance|203557902|88074500|955c1e1e-6afe-49a3-ad66-e81f6ccc810c|aef232ce-0849-4312-86e8-65ed069545ec",
-        "hole_clearance|203773701|88074500|c6b88fef-bd69-4596-8e5f-393c1b13c9a4|aef232ce-0849-4312-86e8-65ed069545ec",
-        "malformed_courtyard|195796500|95103600|47d23378-3eba-42bb-93c1-35f8e15a3cb2|00000000-0000-0000-0000-000000000000",
-        "malformed_courtyard|205935102|86677500|47d23378-3eba-42bb-93c1-35f8e15a3cb2|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -631,7 +624,7 @@
   "sheets": [
     [
       "ada74dd6-9313-41da-aa43-aea44c6d55c8",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}
