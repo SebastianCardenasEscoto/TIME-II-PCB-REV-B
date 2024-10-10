@@ -9375,7 +9375,7 @@
 			)
 		)
 	)
-	(global_label "HEAT_POW"
+	(global_label "5v"
 		(shape input)
 		(at 144.78 135.89 0)
 		(fields_autoplaced yes)
@@ -9387,7 +9387,7 @@
 		)
 		(uuid "56627d80-314c-4e50-8597-4d46b8219765")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.3204 135.89 0)
+			(at 149.9423 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14779,7 +14779,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad8fa6ea-5041-439f-9ed0-6622a4e76a74")
 		(property "Reference" "C18"
-			(at 152.4 242.57 0)
+			(at 152.4 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,8 +14787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2pF"
-			(at 152.4 245.11 0)
+		(property "Value" "2.2uF"
+			(at 152.4 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,7 +15292,7 @@
 		(fields_autoplaced yes)
 		(uuid "b770aee5-e880-4497-9924-4e9ff8468c3b")
 		(property "Reference" "C19"
-			(at 80.01 243.84 0)
+			(at 80.01 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15300,8 +15300,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2pF"
-			(at 80.01 246.38 0)
+		(property "Value" "2.2uF"
+			(at 80.01 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
